@@ -1,7 +1,9 @@
 
 public class Cat {
+    //The two private variables, as per instruction.
     private String name;
     private double weight;
+    //setters for name and weight.
     public void setName(String newName){
         name = newName;
     }
@@ -9,7 +11,7 @@ public class Cat {
     public void setWeight(double newWeight){
         weight = newWeight;
     }
-
+    //getters for name and weight. 
     public String getName(){
         return name;
     }
@@ -17,15 +19,15 @@ public class Cat {
     public double getWeight(){
         return weight;
     }
-
+    //constructor 1.
     public Cat(){   
     }
-
+    //constructor 2 (overloaded).
     public Cat(String catName){
         catName = name;
     }
-    
-        public void meow(){
+    //meow method. The phrase changes based on weight.
+    public void meow(){
         if (weight <= 10){
             System.out.println("Purr!");
         }
