@@ -26,6 +26,6 @@ public class Cat {
     }
     
     public void meow(){
-        System.out.print ("Meow!");
+        System.out.println("Meow!");
     }
 }
