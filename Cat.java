@@ -25,7 +25,14 @@ public class Cat {
         catName = name;
     }
     
-    public void meow(){
-        System.out.println("Meow!");
+        public void meow(){
+        if (weight <= 10){
+            System.out.println("Purr!");
+        }
+        else if (weight <= 12){
+            System.out.println("Meow!");
+        }else{
+            System.out.println("Grrr!");
+        }
     }
 }
